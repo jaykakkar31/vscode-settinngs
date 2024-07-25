@@ -1,0 +1,303 @@
+{
+	"files.autoSave": "onFocusChange",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.fontSize": 14,
+
+	"git.enableSmartCommit": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.indentHandlebars": true,
+	"editor.detectIndentation": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"workbench.colorCustomizations": {
+		"diffEditor.insertedLineBackground": "#07431158",
+		"diffEditor.insertedTextBackground": "#0f6c1e58",
+		"editorRuler.foreground": "#777777"
+	},
+	"workbench.sideBar.location": "right",
+	"open-in-browser.default": "chrome",
+	"terminal.integrated.scrollback": 10000000000000,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"terminal.integrated.fontSize": 13,
+	"editor.renderWhitespace": "all",
+	"editor.renderControlCharacters": true,
+	"editor.formatOnPaste": false,
+	"breadcrumbs.enabled": true,
+	"editor.minimap.showSlider": "always",
+	"editor.selectionClipboard": false,
+	"explorer.confirmDelete": false,
+	"workbench.editor.showTabs": "multiple",
+	"eslint.validate": [
+	  "javascript",
+	  "javascriptreact",
+	  "typescript",
+	  "typescriptreact"
+	  //{"language": "html", "autoFix": true},
+	],
+	"sync.autoUpload": true,
+	"sync.autoDownload": false,
+	"sync.gist": "8d50c01c2c116835785e65403a99055e",
+	// "workbench.colorTheme": "Atomize",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.tslint": "explicit",
+		"source.fixAll.stylelint": "explicit"
+	},
+	"eslint.alwaysShowStatus": true,
+	"editor.semanticHighlighting.enabled": false,
+	// "editor.rulers": [100],
+	"gitlens.views.compare.files.layout": "tree",
+	"gitlens.codeLens.scopes": ["document"],
+	"[json]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"todohighlight.keywords": [
+	  "FIXME:",
+	  {
+		"text": "TODO:",
+		"color": "#ffffff",
+		"backgroundColor": "#d88304",
+		"isWholeLine": false
+	  },
+	  {
+		"text": "BUG:",
+		"color": "#ffffff",
+		"backgroundColor": "#d9363e",
+		"isWholeLine": false
+	  },
+	  {
+		"text": "HACK:",
+		"color": "#ffffff",
+		"backgroundColor": "#096dd9",
+		"isWholeLine": false
+	  },
+	  {
+		"text": "NOTE:",
+		"color": "#ffffff",
+		"backgroundColor": "#3e7921",
+		"isWholeLine": false
+	  }
+	],
+	"workbench.editorAssociations": {
+	  "*.ipynb": "jupyter-notebook"
+	},
+	"[javascript]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[python]": {
+	  "editor.tabSize": 4,
+	  "editor.insertSpaces": true,
+	"editor.formatOnSave": false,
+	"editor.defaultFormatter": "ms-python.python"
+	},
+	"git.autofetch": true,
+	"redhat.telemetry.enabled": false,
+	"notebook.cellToolbarLocation": {
+	  "default": "right",
+	  "jupyter-notebook": "left"
+	},
+	"[html]": {
+	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"debug.javascript.autoAttachFilter": "onlyWithFlag",
+	"editor.bracketPairColorization.enabled": false,
+	"git.confirmSync": false,
+	"merge-conflict.autoNavigateNextConflict.enabled": true,
+	"npm.keybindingsChangedWarningShown": true,
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"editor.stickyScroll.enabled": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"update.mode": "manual",
+	"atomKeymap.promptV3Features": true,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"[typescriptreact]": {
+
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.tabWidth": 4,
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.autoIndent": "none",
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.tabSize": 4,
+	"gitlens.advanced.messages": {
+		"suppressLineUncommittedWarning": true
+	},
+	"tabnine.experimentalAutoImports": true,
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"terminal.integrated.env.osx": {},
+	"git.openRepositoryInParentFolders": "never",
+	"editor.wordWrapColumn": 100,
+	"prettier.printWidth": 100,
+	"go.toolsManagement.autoUpdate": true,
+
+ 	"workbench.colorCustomizations": {
+        "terminal.foreground": "#fff", // Text color
+        "terminal.background": "#000000", // Background color
+        "terminalCursor.foreground": "#ffffff", // Cursor color
+        "terminalCursor.background": "#ffffff", // Cursor background color
+        "terminal.ansiBlack": "#000000", // Black color
+        "terminal.ansiRed": "#ff0000", // Red color
+        "terminal.ansiGreen": "#00ff00", // Green color
+        "terminal.ansiYellow": "#ffff00", // Yellow color
+        "terminal.ansiBlue": "#0000ff", // Blue color
+        "terminal.ansiMagenta": "#ff00ff", // Magenta color
+        "terminal.ansiCyan": "#00ffff", // Cyan color
+        "terminal.ansiWhite": "#ffffff", // White color
+        "terminal.ansiBrightBlack": "#808080", // Bright black color
+        "terminal.ansiBrightRed": "#ff0000", // Bright red color
+        "terminal.ansiBrightGreen": "#00ff00", // Bright green color
+        "terminal.ansiBrightYellow": "#ffff00", // Bright yellow color
+        "terminal.ansiBrightBlue": "#0000ff", // Bright blue color
+        "terminal.ansiBrightMagenta": "#ff00ff", // Bright magenta color
+        "terminal.ansiBrightCyan": "#00ffff", // Bright cyan color
+        "terminal.ansiBrightWhite": "#ffffff" // Bright white color
+	},
+	"leetcode.workspaceFolder": "/Users/jaykakkar/.leetcode",
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	}
+
+
+  }
+// {
+// 	"files.autoSave": "onFocusChange",
+// 	"workbench.iconTheme": "material-icon-theme",
+// 	"editor.fontSize": 14,
+// 	"terminal.integrated.shell.osx": "/bin/zsh",
+// 	"terminal.integrated.setLocaleVariables": true,
+// 	"git.enableSmartCommit": true,
+// 	"html.format.indentInnerHtml": true,
+// 	"html.format.indentHandlebars": true,
+// 	"editor.detectIndentation": true,
+// 	"terminal.integrated.rendererType": "dom",
+// 	"files.trimFinalNewlines": true,
+// 	"files.trimTrailingWhitespace": true,
+// 	"workbench.colorCustomizations": {
+// 	  "diffEditor.insertedLineBackground": "#07431158",
+// 	  "diffEditor.insertedTextBackground": "#0f6c1e58",
+// 	  "editorRuler.foreground": "#777777"
+// 	},
+// 	"open-in-browser.default": "chrome",
+// 	"terminal.integrated.scrollback": 10000000000000,
+// 	"javascript.updateImportsOnFileMove.enabled": "always",
+// 	"terminal.integrated.fontSize": 13,
+// 	"editor.renderWhitespace": "all",
+// 	"editor.renderControlCharacters": true,
+// 	"editor.formatOnPaste": false,
+// 	"breadcrumbs.enabled": true,
+// 	"editor.minimap.showSlider": "always",
+// 	"editor.selectionClipboard": false,
+// 	"explorer.confirmDelete": false,
+// 	"workbench.editor.showTabs": true,
+// 	"eslint.validate": [
+// 	  "javascript",
+// 	  "javascriptreact",
+// 	  "typescript",
+// 	  "typescriptreact"
+// 	  //{"language": "html", "autoFix": true},
+// 	],
+// 	"sync.autoUpload": true,
+// 	"sync.autoDownload": false,
+// 	"sync.gist": "8d50c01c2c116835785e65403a99055e",
+// 	"workbench.colorTheme": "Atomize",
+// 	"diffEditor.ignoreTrimWhitespace": false,
+// 	"editor.codeActionsOnSave": {
+// 		"source.fixAll.eslint": true,
+// 		"source.fixAll.tslint": true,
+// 		"source.fixAll.stylelint": true
+// 	},
+// 	"eslint.alwaysShowStatus": true,
+// 	"editor.semanticHighlighting.enabled": false,
+// 	"editor.rulers": [100],
+// 	"gitlens.views.compare.files.layout": "tree",
+// 	"gitlens.codeLens.scopes": ["document"],
+// 	"[json]": {
+// 	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"todohighlight.keywords": [
+// 	  "FIXME:",
+// 	  {
+// 		"text": "TODO:",
+// 		"color": "#ffffff",
+// 		"backgroundColor": "#d88304",
+// 		"isWholeLine": false
+// 	  },
+// 	  {
+// 		"text": "BUG:",
+// 		"color": "#ffffff",
+// 		"backgroundColor": "#d9363e",
+// 		"isWholeLine": false
+// 	  },
+// 	  {
+// 		"text": "HACK:",
+// 		"color": "#ffffff",
+// 		"backgroundColor": "#096dd9",
+// 		"isWholeLine": false
+// 	  },
+// 	  {
+// 		"text": "NOTE:",
+// 		"color": "#ffffff",
+// 		"backgroundColor": "#3e7921",
+// 		"isWholeLine": false
+// 	  }
+// 	],
+// 	"workbench.editorAssociations": {
+// 	  "*.ipynb": "jupyter-notebook"
+// 	},
+// 	"[javascript]": {
+// 	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"[python]": {
+// 	  "editor.tabSize": 4,
+// 	  "editor.insertSpaces": true,
+// 	  "editor.formatOnSave": false
+// 	},
+// 	"python.formatting.autopep8Args": ["--max-line-length", "100"],
+// 	"git.autofetch": true,
+// 	"redhat.telemetry.enabled": false,
+// 	"notebook.cellToolbarLocation": {
+// 	  "default": "right",
+// 	  "jupyter-notebook": "left"
+// 	},
+// 	"[html]": {
+// 	  "editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"debug.javascript.autoAttachFilter": "onlyWithFlag",
+// 	"editor.bracketPairColorization.enabled": false,
+// 	"git.confirmSync": false,
+// 	"merge-conflict.autoNavigateNextConflict.enabled": true,
+// 	"npm.keybindingsChangedWarningShown": true,
+// 	"window.zoomLevel": 1,
+// 	"terminal.integrated.enableMultiLinePasteWarning": false,
+// 	"editor.stickyScroll.enabled": true,
+// 	"liveServer.settings.donotShowInfoMsg": true,
+// 	"update.mode": "manual",
+// 	"atomKeymap.promptV3Features": true,
+// 	"editor.multiCursorModifier": "ctrlCmd",
+// 	"[typescriptreact]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"prettier.tabWidth": 4,
+// 	"[scss]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"editor.autoIndent": "none",
+// 	"[jsonc]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	},
+// 	"editor.tabSize": 4,
+// 	"gitlens.advanced.messages": {
+// 		"suppressLineUncommittedWarning": true
+// 	},
+// 	"tabnine.experimentalAutoImports": true,
+// 	"[css]": {
+// 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+// 	}
+//   }
